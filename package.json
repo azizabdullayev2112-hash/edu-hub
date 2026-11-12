@@ -1,0 +1,54 @@
+{
+  "name": "openedu-hub",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "A centralized, community-driven educational platform providing structured skill roadmaps and simplified breakdowns of complex academic terminology for self-taught learners and university students.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "validate": "node scripts/validate-dataset.js",
+    "generate:docs": "node scripts/export-markdown.js",
+    "stats": "node scripts/stats.js",
+    "test": "npm run validate"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.9.4",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/node": "^22.10.1",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.3"
+  },
+  "keywords": [
+    "education",
+    "open-source",
+    "learning-platform",
+    "roadmaps",
+    "computer-science",
+    "machine-learning",
+    "academic-glossary",
+    "eli5",
+    "interactive-learning",
+    "uzbekistan",
+    "stem"
+  ],
+  "author": "Abdulazizkhan <azizabdullayev2112@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azizabdullayev2112-hash/openedu-hub.git"
+  }
+}
