@@ -1,9 +1,9 @@
-# 🎓 OpenEdu Hub
+# 🎓 Edu Hub (OpenEdu)
 
 > **A centralized, community-driven educational platform providing structured skill roadmaps and simplified breakdowns of complex academic terminology for self-taught learners and university students.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Build & Validation](https://github.com/azizabdullayev2112-hash/openedu-hub/actions/workflows/ci.yml/badge.svg)](https://github.com/azizabdullayev2112-hash/openedu-hub/actions)
+[![Build & Validation](https://github.com/azizabdullayev2112-hash/edu-hub/actions/workflows/ci.yml/badge.svg)](https://github.com/azizabdullayev2112-hash/edu-hub/actions)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6.svg?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-18-61DAFB.svg?logo=react&logoColor=black)](https://react.dev/)
@@ -80,8 +80,8 @@ openedu-hub/
 
 ### 1. Clone & Install
 ```bash
-git clone https://github.com/azizabdullayev2112-hash/openedu-hub.git
-cd openedu-hub
+git clone https://github.com/azizabdullayev2112-hash/edu-hub.git
+cd edu-hub
 npm install
 ```
 

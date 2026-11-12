@@ -42,8 +42,8 @@ npm run generate:docs
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/azizabdullayev2112-hash/openedu-hub.git
-   cd openedu-hub
+   git clone https://github.com/azizabdullayev2112-hash/edu-hub.git
+   cd edu-hub
    ```
 
 2. **Install dependencies:**

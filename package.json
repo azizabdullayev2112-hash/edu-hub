@@ -1,5 +1,5 @@
 {
-  "name": "openedu-hub",
+  "name": "edu-hub",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -49,6 +49,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/azizabdullayev2112-hash/openedu-hub.git"
+    "url": "https://github.com/azizabdullayev2112-hash/edu-hub.git"
   }
 }
