@@ -27,3 +27,19 @@ dist-ssr
 .env
 .env.local
 .env.*.local
+.env.production
+.env.development
+
+# Security, Certificates & Secrets
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+*.p12
+*.secret
+credentials.json
+client_secret*.json
+id_rsa
+id_ecdsa
+id_ed25519
