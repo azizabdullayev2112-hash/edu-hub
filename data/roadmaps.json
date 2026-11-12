@@ -1,0 +1,92 @@
+[
+  {
+    "id": "cs-core",
+    "title": "Computer Science Foundations",
+    "description": "A comprehensive self-study curriculum from basic computation theory to operating systems and algorithms.",
+    "targetAudience": "Self-taught developers, university students, and career switchers",
+    "estimatedWeeks": 24,
+    "phases": [
+      {
+        "phaseNumber": 1,
+        "name": "Discrete Mathematics & Logic",
+        "description": "Master the mathematical underpinnings of computer systems and algorithms.",
+        "skills": [
+          "Boolean Algebra and Logic Gates",
+          "Set Theory and Relations",
+          "Proof Techniques (Induction, Contradiction)",
+          "Graph Theory Fundamentals"
+        ],
+        "projectMilestone": "Implement a propositional logic theorem prover in code."
+      },
+      {
+        "phaseNumber": 2,
+        "name": "Data Structures & Asymptotic Analysis",
+        "description": "Understand core structures and analyze computational time/memory efficiency.",
+        "skills": [
+          "Arrays, Linked Lists, Stacks, and Queues",
+          "Trees, Heaps, and Hash Tables",
+          "Divide-and-Conquer Sorting Algorithms",
+          "Graph Traversals (BFS and DFS)"
+        ],
+        "projectMilestone": "Build an in-memory key-value cache with collision resolution and TTL eviction."
+      },
+      {
+        "phaseNumber": 3,
+        "name": "Computer Architecture & Operating Systems",
+        "description": "Learn how software instructs hardware and how modern kernels manage concurrency.",
+        "skills": [
+          "CPU Instruction Sets & Register Allocation",
+          "Virtual Memory, Paging, and Page Faults",
+          "Processes, Threads, and Synchronization Primitives",
+          "File Systems and I/O Multiplexing"
+        ],
+        "projectMilestone": "Write a multi-threaded HTTP server with POSIX sockets and thread pooling."
+      }
+    ]
+  },
+  {
+    "id": "ai-ml-engineer",
+    "title": "Modern AI & Machine Learning",
+    "description": "A structured pathway covering statistical learning, neural architectures, and LLM systems engineering.",
+    "targetAudience": "Developers looking to transition into applied ML and AI engineering",
+    "estimatedWeeks": 20,
+    "phases": [
+      {
+        "phaseNumber": 1,
+        "name": "Mathematical & Statistical Core",
+        "description": "The essential calculus, linear algebra, and probability for machine intelligence.",
+        "skills": [
+          "Matrix Decompositions (SVD, Eigenvalues)",
+          "Multivariate Calculus & Partial Derivatives",
+          "Probability Distributions & Bayesian Inference",
+          "Cost Functions & Convex Optimization"
+        ],
+        "projectMilestone": "Build linear regression and logistic regression from scratch using pure NumPy."
+      },
+      {
+        "phaseNumber": 2,
+        "name": "Deep Learning & Neural Networks",
+        "description": "Designing, training, and regularizing modern neural network architectures.",
+        "skills": [
+          "Backpropagation & Computation Graphs",
+          "Activation Functions & Normalization Layers",
+          "Convolutional Neural Networks (CNNs)",
+          "Recurrent Architectures & Sequence Models"
+        ],
+        "projectMilestone": "Train an end-to-end vision classifier and evaluate robustness with test augmentations."
+      },
+      {
+        "phaseNumber": 3,
+        "name": "Transformers, LLMs & Retrieval Systems",
+        "description": "Applied engineering with foundation models, vector search, and agentic workflows.",
+        "skills": [
+          "Multi-Head Self-Attention Architecture",
+          "Vector Databases & Hybrid Search",
+          "Retrieval-Augmented Generation (RAG)",
+          "Model Fine-Tuning & Quantization Techniques"
+        ],
+        "projectMilestone": "Create an open-source domain-specific academic search engine with vector embeddings."
+      }
+    ]
+  }
+]
