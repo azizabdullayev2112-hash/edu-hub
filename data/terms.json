@@ -86,5 +86,60 @@
     "analogy": "A Lego set with enough basic bricks to build any sculpture or mechanism you can imagine.",
     "keyTakeaway": "Almost all modern languages (Python, JS, C++) are Turing Complete, while config formats (JSON) are intentionally not.",
     "tags": ["theory", "computation", "foundations"]
+  },
+  {
+    "id": "zero-knowledge-proof",
+    "term": "Zero-Knowledge Proof (ZKP)",
+    "category": "Cybersecurity",
+    "difficulty": "Advanced",
+    "formalDefinition": "A cryptographic protocol by which one party (the prover) can prove to another party (the verifier) that a given statement is true without revealing any information apart from the fact that the statement is indeed true.",
+    "eli5": "Proving to someone that you know a secret password or that you are over 18 without ever showing them the password or your ID card.",
+    "analogy": "Proving to a colorblind friend that two balls are different colors: you hold one in each hand, hide them behind your back, and let your friend guess if you swapped them—after 20 rounds, they know you can tell the colors apart without ever knowing which ball is red or green.",
+    "keyTakeaway": "Powers privacy-preserving authentication, blockchain scaling, and secure identity verification.",
+    "tags": ["cryptography", "privacy", "security"]
+  },
+  {
+    "id": "asymmetric-encryption",
+    "term": "Asymmetric Encryption (Public-Key)",
+    "category": "Cybersecurity",
+    "difficulty": "Intermediate",
+    "formalDefinition": "A cryptographic system that uses pairs of mathematically related keys: a public key for encryption or signature verification, and a private key kept secret for decryption or signing.",
+    "eli5": "Using one key to lock a mailbox so anyone can drop a letter in, and a completely different secret key that only you have to open the mailbox and read the letters.",
+    "analogy": "A padlock you hand out unlocked to everyone in town (public key): anyone can snap it shut on a box and mail it to you, but only your unique physical key (private key) can unlock it.",
+    "keyTakeaway": "The foundation of HTTPS, SSH, and secure communication over the open internet.",
+    "tags": ["cryptography", "rsa", "networking"]
+  },
+  {
+    "id": "cryptographic-hashing",
+    "term": "Cryptographic Hashing",
+    "category": "Cybersecurity",
+    "difficulty": "Beginner",
+    "formalDefinition": "A deterministic mathematical algorithm that maps data of arbitrary size to a fixed-size bit array (hash digest) in a one-way manner that is computationally infeasible to invert.",
+    "eli5": "A digital blender that turns any file or password into a unique fixed-length fingerprint—you can easily make the fingerprint, but you can never reconstruct the original ingredients from it.",
+    "analogy": "Turning a whole book into a unique 64-character serial number; changing even a single comma in the book produces a completely different serial number.",
+    "keyTakeaway": "Used to verify file integrity and safely store password verifiers without saving plaintext passwords.",
+    "tags": ["hashing", "sha256", "security"]
+  },
+  {
+    "id": "password-salting",
+    "term": "Password Salting",
+    "category": "Cybersecurity",
+    "difficulty": "Beginner",
+    "formalDefinition": "The practice of appending a unique, cryptographically random string (salt) to each user's password before hashing, defending against precomputed rainbow table attacks.",
+    "eli5": "Adding a random secret pinch of spice to each user's password before scrambling it, so even if two people pick '123456', their stored fingerprints look completely different.",
+    "analogy": "Giving every locker at a gym a different random prefix code before scrambling it, so a stolen master list of common passwords becomes useless.",
+    "keyTakeaway": "Essential defense in modern authentication systems alongside slow hashing algorithms like Argon2 or bcrypt.",
+    "tags": ["authentication", "passwords", "defense"]
+  },
+  {
+    "id": "sql-injection",
+    "term": "SQL Injection (SQLi)",
+    "category": "Cybersecurity",
+    "difficulty": "Beginner",
+    "formalDefinition": "A code injection vulnerability in which untrusted user input is concatenated directly into a database query, allowing attackers to manipulate SQL syntax and read or alter unauthorized data.",
+    "eli5": "Tricking a website's search box by typing database commands instead of a normal name, causing the database to obey your hidden instructions.",
+    "analogy": "Writing '1000 dollars AND give me the keys to the vault' on a bank deposit slip when the clerk blindly reads every word aloud as an official order.",
+    "keyTakeaway": "Always prevented by using parameterized queries (prepared statements) rather than string concatenation.",
+    "tags": ["web-security", "databases", "owasp"]
   }
 ]

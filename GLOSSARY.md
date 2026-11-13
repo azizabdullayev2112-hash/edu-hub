@@ -12,6 +12,11 @@
 | **[Vector Embeddings](#vector-embeddings)** | `Machine Learning` | Beginner | Converting words and thoughts into lists of coordinates on a map so that words with similar meanings live in the same neighborhood. |
 | **[B-Tree Indexing](#b-tree-indexing)** | `Distributed Systems` | Intermediate | An organized filing cabinet system where each drawer has labels pointing to narrower sections, letting you find any record in 3 quick steps. |
 | **[Turing Completeness](#turing-completeness)** | `Computer Science` | Intermediate | If a programming language can simulate any calculation or program that any computer could ever theoretically run, it's Turing Complete. |
+| **[Zero-Knowledge Proof (ZKP)](#zero-knowledge-proof)** | `Cybersecurity` | Advanced | Proving to someone that you know a secret password or that you are over 18 without ever showing them the password or your ID card. |
+| **[Asymmetric Encryption (Public-Key)](#asymmetric-encryption)** | `Cybersecurity` | Intermediate | Using one key to lock a mailbox so anyone can drop a letter in, and a completely different secret key that only you have to open the mailbox and read the letters. |
+| **[Cryptographic Hashing](#cryptographic-hashing)** | `Cybersecurity` | Beginner | A digital blender that turns any file or password into a unique fixed-length fingerprint—you can easily make the fingerprint, but you can never reconstruct the original ingredients from it. |
+| **[Password Salting](#password-salting)** | `Cybersecurity` | Beginner | Adding a random secret pinch of spice to each user's password before scrambling it, so even if two people pick '123456', their stored fingerprints look completely different. |
+| **[SQL Injection (SQLi)](#sql-injection)** | `Cybersecurity` | Beginner | Tricking a website's search box by typing database commands instead of a normal name, causing the database to obey your hidden instructions. |
 
 ---
 
@@ -172,6 +177,106 @@ A Lego set with enough basic bricks to build any sculpture or mechanism you can 
 
 #### 🎯 Why It Matters
 Almost all modern languages (Python, JS, C++) are Turing Complete, while config formats (JSON) are intentionally not.
+
+---
+
+### <a id="zero-knowledge-proof"></a>Zero-Knowledge Proof (ZKP)
+
+- **Category:** `Cybersecurity`
+- **Difficulty:** `Advanced`
+- **Tags:** `#cryptography` `#privacy` `#security`
+
+#### 🏛️ Formal Academic Definition
+> "A cryptographic protocol by which one party (the prover) can prove to another party (the verifier) that a given statement is true without revealing any information apart from the fact that the statement is indeed true."
+
+#### 💡 Explain Like I'm 5 (ELI5)
+Proving to someone that you know a secret password or that you are over 18 without ever showing them the password or your ID card.
+
+#### 🌍 Real-World Analogy
+Proving to a colorblind friend that two balls are different colors: you hold one in each hand, hide them behind your back, and let your friend guess if you swapped them—after 20 rounds, they know you can tell the colors apart without ever knowing which ball is red or green.
+
+#### 🎯 Why It Matters
+Powers privacy-preserving authentication, blockchain scaling, and secure identity verification.
+
+---
+
+### <a id="asymmetric-encryption"></a>Asymmetric Encryption (Public-Key)
+
+- **Category:** `Cybersecurity`
+- **Difficulty:** `Intermediate`
+- **Tags:** `#cryptography` `#rsa` `#networking`
+
+#### 🏛️ Formal Academic Definition
+> "A cryptographic system that uses pairs of mathematically related keys: a public key for encryption or signature verification, and a private key kept secret for decryption or signing."
+
+#### 💡 Explain Like I'm 5 (ELI5)
+Using one key to lock a mailbox so anyone can drop a letter in, and a completely different secret key that only you have to open the mailbox and read the letters.
+
+#### 🌍 Real-World Analogy
+A padlock you hand out unlocked to everyone in town (public key): anyone can snap it shut on a box and mail it to you, but only your unique physical key (private key) can unlock it.
+
+#### 🎯 Why It Matters
+The foundation of HTTPS, SSH, and secure communication over the open internet.
+
+---
+
+### <a id="cryptographic-hashing"></a>Cryptographic Hashing
+
+- **Category:** `Cybersecurity`
+- **Difficulty:** `Beginner`
+- **Tags:** `#hashing` `#sha256` `#security`
+
+#### 🏛️ Formal Academic Definition
+> "A deterministic mathematical algorithm that maps data of arbitrary size to a fixed-size bit array (hash digest) in a one-way manner that is computationally infeasible to invert."
+
+#### 💡 Explain Like I'm 5 (ELI5)
+A digital blender that turns any file or password into a unique fixed-length fingerprint—you can easily make the fingerprint, but you can never reconstruct the original ingredients from it.
+
+#### 🌍 Real-World Analogy
+Turning a whole book into a unique 64-character serial number; changing even a single comma in the book produces a completely different serial number.
+
+#### 🎯 Why It Matters
+Used to verify file integrity and safely store password verifiers without saving plaintext passwords.
+
+---
+
+### <a id="password-salting"></a>Password Salting
+
+- **Category:** `Cybersecurity`
+- **Difficulty:** `Beginner`
+- **Tags:** `#authentication` `#passwords` `#defense`
+
+#### 🏛️ Formal Academic Definition
+> "The practice of appending a unique, cryptographically random string (salt) to each user's password before hashing, defending against precomputed rainbow table attacks."
+
+#### 💡 Explain Like I'm 5 (ELI5)
+Adding a random secret pinch of spice to each user's password before scrambling it, so even if two people pick '123456', their stored fingerprints look completely different.
+
+#### 🌍 Real-World Analogy
+Giving every locker at a gym a different random prefix code before scrambling it, so a stolen master list of common passwords becomes useless.
+
+#### 🎯 Why It Matters
+Essential defense in modern authentication systems alongside slow hashing algorithms like Argon2 or bcrypt.
+
+---
+
+### <a id="sql-injection"></a>SQL Injection (SQLi)
+
+- **Category:** `Cybersecurity`
+- **Difficulty:** `Beginner`
+- **Tags:** `#web-security` `#databases` `#owasp`
+
+#### 🏛️ Formal Academic Definition
+> "A code injection vulnerability in which untrusted user input is concatenated directly into a database query, allowing attackers to manipulate SQL syntax and read or alter unauthorized data."
+
+#### 💡 Explain Like I'm 5 (ELI5)
+Tricking a website's search box by typing database commands instead of a normal name, causing the database to obey your hidden instructions.
+
+#### 🌍 Real-World Analogy
+Writing '1000 dollars AND give me the keys to the vault' on a bank deposit slip when the clerk blindly reads every word aloud as an official order.
+
+#### 🎯 Why It Matters
+Always prevented by using parameterized queries (prepared statements) rather than string concatenation.
 
 ---
 
