@@ -17,6 +17,11 @@
 | **[Cryptographic Hashing](#cryptographic-hashing)** | `Cybersecurity` | Beginner | A digital blender that turns any file or password into a unique fixed-length fingerprint—you can easily make the fingerprint, but you can never reconstruct the original ingredients from it. |
 | **[Password Salting](#password-salting)** | `Cybersecurity` | Beginner | Adding a random secret pinch of spice to each user's password before scrambling it, so even if two people pick '123456', their stored fingerprints look completely different. |
 | **[SQL Injection (SQLi)](#sql-injection)** | `Cybersecurity` | Beginner | Tricking a website's search box by typing database commands instead of a normal name, causing the database to obey your hidden instructions. |
+| **[Bayes' Theorem](#bayes-theorem)** | `Mathematics` | Intermediate | Updating how likely you think something is after you see a new clue, while remembering how rare that thing was to begin with. |
+| **[Eigenvalues & Eigenvectors](#eigenvalues-eigenvectors)** | `Mathematics` | Advanced | Special arrows inside a stretching or rotating transformation that keep pointing in the exact same direction—they only grow longer or shorter. |
+| **[Markov Chains](#markov-chains)** | `Mathematics` | Intermediate | A system that predicts what happens next using only where you are right now, completely forgetting how you got there. |
+| **[Boolean Satisfiability (SAT)](#boolean-satisfiability)** | `Mathematics` | Advanced | Figuring out whether there is any combination of light switches (ON or OFF) that satisfies a giant list of strict rules all at once. |
+| **[Modular Arithmetic](#modular-arithmetic)** | `Mathematics` | Beginner | Math that wraps around in a circle, just like a 12-hour clock where 3 hours after 10 o'clock is 1 o'clock instead of 13. |
 
 ---
 
@@ -277,6 +282,106 @@ Writing '1000 dollars AND give me the keys to the vault' on a bank deposit slip 
 
 #### 🎯 Why It Matters
 Always prevented by using parameterized queries (prepared statements) rather than string concatenation.
+
+---
+
+### <a id="bayes-theorem"></a>Bayes' Theorem
+
+- **Category:** `Mathematics`
+- **Difficulty:** `Intermediate`
+- **Tags:** `#probability` `#statistics` `#inference`
+
+#### 🏛️ Formal Academic Definition
+> "A mathematical formula for determining conditional probability, describing how to update the probability of a hypothesis given new observed evidence: P(A|B) = P(B|A)P(A) / P(B)."
+
+#### 💡 Explain Like I'm 5 (ELI5)
+Updating how likely you think something is after you see a new clue, while remembering how rare that thing was to begin with.
+
+#### 🌍 Real-World Analogy
+If you hear barking outside, you might think it's a dog. If you live next to a zoo with seals that bark, you update your guess based on both the sound and how common dogs vs. seals are in your neighborhood.
+
+#### 🎯 Why It Matters
+Drives spam filters, medical diagnostics, and probabilistic machine learning models.
+
+---
+
+### <a id="eigenvalues-eigenvectors"></a>Eigenvalues & Eigenvectors
+
+- **Category:** `Mathematics`
+- **Difficulty:** `Advanced`
+- **Tags:** `#linear-algebra` `#matrices` `#pca`
+
+#### 🏛️ Formal Academic Definition
+> "For a linear transformation represented by a matrix A, an eigenvector is a nonzero vector whose direction remains unchanged after transformation, scaled only by a scalar factor called its eigenvalue."
+
+#### 💡 Explain Like I'm 5 (ELI5)
+Special arrows inside a stretching or rotating transformation that keep pointing in the exact same direction—they only grow longer or shorter.
+
+#### 🌍 Real-World Analogy
+When you stretch a rubber sheet evenly from left to right, arrows drawn horizontally stay horizontal (eigenvectors) and just get longer by the stretch factor (eigenvalue).
+
+#### 🎯 Why It Matters
+Essential for Principal Component Analysis (PCA), Google PageRank, and dimensionality reduction in AI.
+
+---
+
+### <a id="markov-chains"></a>Markov Chains
+
+- **Category:** `Mathematics`
+- **Difficulty:** `Intermediate`
+- **Tags:** `#probability` `#stochastic` `#modeling`
+
+#### 🏛️ Formal Academic Definition
+> "A stochastic model describing a sequence of possible events in which the probability of each event depends solely on the state attained in the previous event (the memoryless property)."
+
+#### 💡 Explain Like I'm 5 (ELI5)
+A system that predicts what happens next using only where you are right now, completely forgetting how you got there.
+
+#### 🌍 Real-World Analogy
+Playing a board game where your next possible squares depend only on the space your piece is currently sitting on, not on the last 10 rolls you made.
+
+#### 🎯 Why It Matters
+Used in autocomplete keyboards, weather modeling, reinforcement learning, and web page ranking.
+
+---
+
+### <a id="boolean-satisfiability"></a>Boolean Satisfiability (SAT)
+
+- **Category:** `Mathematics`
+- **Difficulty:** `Advanced`
+- **Tags:** `#logic` `#complexity-theory` `#np-complete`
+
+#### 🏛️ Formal Academic Definition
+> "The problem of determining whether there exists an assignment of True/False truth values to variables that makes a given Boolean formula evaluate to True; the first problem proven to be NP-complete."
+
+#### 💡 Explain Like I'm 5 (ELI5)
+Figuring out whether there is any combination of light switches (ON or OFF) that satisfies a giant list of strict rules all at once.
+
+#### 🌍 Real-World Analogy
+Planning a dinner seating chart with 50 guests where 'Alice won't sit next to Bob' and 'Carol must sit near Dave'—checking if any valid seating arrangement even exists.
+
+#### 🎯 Why It Matters
+Modern SAT solvers power hardware chip verification, automated scheduling, and software bug-finding.
+
+---
+
+### <a id="modular-arithmetic"></a>Modular Arithmetic
+
+- **Category:** `Mathematics`
+- **Difficulty:** `Beginner`
+- **Tags:** `#number-theory` `#cryptography` `#foundations`
+
+#### 🏛️ Formal Academic Definition
+> "A system of arithmetic for integers where numbers wrap around upon reaching a fixed positive value called the modulus, denoted a ≡ b (mod n)."
+
+#### 💡 Explain Like I'm 5 (ELI5)
+Math that wraps around in a circle, just like a 12-hour clock where 3 hours after 10 o'clock is 1 o'clock instead of 13.
+
+#### 🌍 Real-World Analogy
+If today is Friday and you count 10 days forward, you wrap around the 7-day week and land on Monday (10 mod 7 = 3 days past Friday).
+
+#### 🎯 Why It Matters
+Forms the mathematical backbone of hash tables, checksums, and modern public-key cryptography.
 
 ---
 
